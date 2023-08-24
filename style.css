@@ -17,3 +17,18 @@
 .heading {
   color: gray;
 }
+
+.main {
+  width: 840px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.section {
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.section:not(:first-child) {
+  padding-top: 30px;
+}
